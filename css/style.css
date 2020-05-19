@@ -10327,3 +10327,8 @@ body {
 #projects{
   background-color: black !important;
 }
+@media (max-width: 500px){
+  .masthead h1{
+    font-size: 1rem;
+  }
+}
