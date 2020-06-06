@@ -6,7 +6,6 @@
   font-family: balu;
   src: url("../BalooPaaji2-SemiBold.ttf")
 }
-
 a{
   font-family: balu;
   color: floralwhite;
@@ -20,14 +19,30 @@ header{
   background-position: center;
   padding-top: 2rem;
 }
+#heading{
+  justify-content: center;
+  align-items: center;
+  padding: 9rem;
+  display: flex;
+  height: auto;
+}
 header h1{
   text-align: center;
   font-family: gotu;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
   color: #071030;
   font-size: 10rem ;
-  height: 50rem;
   text-shadow: 1rem 1rem 1rem #a8f0e4;
 }
-header .container{
-  width: 50%;
+#about li{
+  text-align: center;
+}
+#about{
+  background-image: linear-gradient(to bottom, black, rgb(87, 78, 78));
+  padding-bottom: 5rem;
+}
+#contact{
+  font-family: gotu;
+  border: cyan solid 2px;
 }

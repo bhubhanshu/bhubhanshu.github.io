@@ -33,7 +33,9 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <h1 class="text-uppercase font-weight-light">Welcome to My Website</h1>
+            <div class="row row-content" id="heading">
+                <h1>Welcome to My Website</h1>
+            </div>
             <div class="row justify-content-center">
                 <i class="fas fa-chevron-down"></i>
             </div>
@@ -41,8 +43,97 @@
     </header>
 
     <!-- ABOUT ME -->
-    <div class="container">
-        <p></p>
+    <div class="container-fluid bg-dark" id="about">
+        <div class="row justify-content-center">
+            <div class="row col-12 justify-content-center mt-5">
+                <h1 class="text-white" style="font-size: 5rem; font-family: balu;">About Me</h1>
+            </div>
+            <div class="col-12 col-xl-6 mb-5">
+                <ul class="list-group list-group-flush" style="text-align: center;">
+                    <li class="list-group-item list-group-item-action  list-group-item-info"> Went to school in Bhopal</li>
+                    <li class="list-group-item list-group-item-action  list-group-item-success">Primarily from Bhopal, but Grandparents live in village and I love my village</li>
+                    <li class="list-group-item list-group-item-action  list-group-item-warning">I love to play video games</li>
+                    <li class="list-group-item list-group-item-action  list-group-item-primary">I like to listen to music mainly instrumental like dance music and electronic</li>
+                    <li class="list-group-item list-group-item-action  list-group-item-danger">Currently pursuing B.E. Computer Science in BITS Goa</li>
+                  </ul>
+            </div>
+        </div>
+    <!-- PROJECTS -->
+        <div id="projects">
+            <div class="row justify-content-center mt-5">
+                <h1 class="text-white" style="font-size: 5rem; font-family: balu;">Projects</h1>
+            </div>
+            <div class="row row-content align-items-center text-white m-5">
+                <div class="col-12 col-md media order-sm-first">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="imgs/yc.jpg" alt="Uthappizza" width="600">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza </h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
+                            Italian pizza, topped with Cerignola olives, ripe vine
+                            cherry tomatoes, Vidalia onion, Guntur chillies and
+                            Buffalo Paneer.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row row-content align-items-center text-white m-5">
+                <div class="col-12 col-md media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger"> NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center" src="imgs/yc.jpg" alt="Buffet" width="600">
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center text-white m-5">
+                <div class="col-12 col-md media order-sm-first">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                            src="imgs/yc.jpg" alt="Alberto Somayya" width="600">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide
+                            International experience having worked closely with
+                            whos-who in the culinary world, he specializes in
+                            creating mouthwatering Indo-Italian fusion experiences.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CONTACT -->
+        <div class="card text-center bg-dark text-white mt-5" id="contact">
+            <div class="card-header" style="font-size: 5rem; font-family: balu;">Contact Me</div>
+            <div class="card-body row">
+                <div class="col-12 col-md-4 offset-md-2 my-3">
+                    <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Mobile Number</h5>
+                          <p class="card-text">+91 9131040692</p>
+                          <a href="tel:9131040692" class="btn btn-primary"><i class="fa fa-phone"></i>&ensp;Call!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 offset-md-2 my-3">
+                    <div class="card text-center bg-dark text-white" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Email</h5>
+                          <p class="card-text">f20170951G@goa.bits-pilani.ac.in</p>
+                          <a href="mailto:f20170951G@goa.bits-pilani.ac.in" class="btn btn-primary"><i class="fa fa-envelope-o"></i>&ensp;Send an email</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-social-icon btn-github" href="http://twitter.com/"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
     </div>
     <script src="bs4/jquery/dist/jquery.slim.min.js"></script>
     <script src="bs4/popper.js/dist/umd/popper.min.js"></script>
